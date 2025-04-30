@@ -36,6 +36,19 @@ body{
 
 /* ------------------- Nav ------------------- */
 
+#inicio,
+#sobremi,
+#servicios,
+#portfolio,
+#contacto {
+  scroll-margin-top: 120px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 .custom-navbar {
   background-color: rgba(0, 0, 0, 0.85) !important;
   border-bottom: solid 2px;
@@ -753,7 +766,3 @@ h3{
 
 
 /* ------------------- Responsive Fixes ------------------- */
-
-@media (max-width: 575.98px){
-
-}
