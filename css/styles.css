@@ -528,7 +528,7 @@ h3{
   margin: 25px 0 50px 0;
 }
 
-.html, .css, .js, .vue{
+.html, .css, .js, .vue, .php, .react{
   color: rgb(182, 182, 182);
   background-color: rgba(48, 48, 48, 0.5);
   padding: 5px;
@@ -556,9 +556,21 @@ h3{
 }
 
 .vue:hover{
-  background-color: rgb(65, 184, 131);
-  color: white;
-  border: white 2px solid;
+  background-color: #41b883;
+  color: #34495e;
+  border: #34495e 2px solid;
+}
+
+.php:hover{
+  background-color: #777bb3;
+  color: black;
+  border: #484c89 2px solid;
+}
+
+.react:hover{
+  background-color: cyan;
+  color: #000000;
+  border: white;
 }
 
 @media (max-width: 1400px) {
