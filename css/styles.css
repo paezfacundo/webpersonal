@@ -735,6 +735,46 @@ h3{
   }
 }
 
+.cv{
+  z-index: 2;
+}
+
+.button-cv {
+  background-color: rgb(255, 172, 255);
+  border-radius: 100px;
+  box-shadow:
+              rgba(187, 44, 147, .2) 0 -25px 18px -14px inset,
+              rgba(187, 44, 147, .15) 0 1px 2px,
+              rgba(187, 44, 147, .15) 0 2px 4px,
+              rgba(187, 44, 147, .15) 0 4px 8px,
+              rgba(187, 44, 147, .15) 0 8px 16px,
+              rgba(187, 44, 147, .15) 0 16px 32px;
+  color: magenta;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Kode Mono", monospace;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 1.5rem;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-cv:hover {
+  box-shadow:
+            rgba(187, 44, 147, .35) 0 -25px 18px -14px inset,
+            rgba(187, 44, 147, .25) 0 1px 2px,
+            rgba(187, 44, 147, .25) 0 2px 4px,
+            rgba(187, 44, 147, .25) 0 4px 8px,
+            rgba(187, 44, 147, .25) 0 8px 16px,
+            rgba(187, 44, 147, .25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
 
 /* ------------------- Contacto ------------------- */
 
