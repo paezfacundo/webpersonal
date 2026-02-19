@@ -570,7 +570,7 @@ h3{
 .react:hover{
   background-color: cyan;
   color: #000000;
-  border: white;
+  border: white 2px solid;
 }
 
 @media (max-width: 1400px) {
