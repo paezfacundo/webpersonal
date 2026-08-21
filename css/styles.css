@@ -278,7 +278,7 @@ h3{
 }
 
 .quiensoy{
-  padding: 2rem;
+  padding: 1rem 2rem 2rem 2rem;
 }
 
 .contenedor {
@@ -290,7 +290,7 @@ h3{
 }
 
 .contenedor p {
-  margin: 0;
+  margin: 10px;
 }
 
 .contenedor2 {
